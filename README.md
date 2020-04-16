@@ -20,9 +20,9 @@
 
 - Let's follow [Le Wagon Tutoriel for setup](https://github.com/lewagon/rails-stylesheets/blob/master/README.md)
 - Let's use [Bootsrap](https://getbootstrap.com/)
-- Garden#show : Let's use a **banner** from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#banner)
+- Garden#show : Let's use **banner** from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#banner)
   - https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_1.jpg
   - https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_2.jpg
-- Plant#index : Let's use a **card** from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#card_category)
-- Plant#index : Let's use Font Awesome
+- Plant#index : Let's use **card** from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#card_category)
+- Plant#delete : Let's use **Font Awesome**
 
