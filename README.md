@@ -11,16 +11,18 @@
 ### Steps
 
 1. Seed Data
-  - https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_1.jpg
-  - https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_2.jpg
-2. Models
+2. Generate Model
 3. Routes
-4. Controller
+4. Generate Controller
 5. View
 
 ### Front
 
-- Garden#show : Let's use a banner from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#banners)
-- Plant#index : Let's use a card from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#banners)
+- Let's follow [Le Wagon Tutoriel for setup](https://github.com/lewagon/rails-stylesheets/blob/master/README.md)
+- Let's use [Bootsrap](https://getbootstrap.com/)
+- Garden#show : Let's use a **banner** from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#banner)
+  - https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_1.jpg
+  - https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_2.jpg
+- Plant#index : Let's use a **card** from [Le Wagon UI kit](https://uikit.lewagon.com/documentation#card_category)
 - Plant#index : Let's use Font Awesome
 
