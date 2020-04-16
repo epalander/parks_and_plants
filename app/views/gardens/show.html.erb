@@ -6,10 +6,10 @@
 <div class="container mt-3">
   <div class="d-flex">
     <% @plants.each do |plant| %>
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= plant.picture %>)">
+      <div class="card-category mr-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= plant.picture %>)">
         <%= plant.species %>
       </div>
     <% end %>
   </div>
+  <%= link_to "Add a plant", new_garden_plant_path(@garden), class: "btn btn-primary mt-3" %>
 </div>
-
