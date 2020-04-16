@@ -10,12 +10,26 @@ puts "Destroy all"
 Garden.destroy_all
 
 puts "Creating Gardens"
-Garden.create!(
+color_garden = Garden.create!(
   name: "Color Garden",
   picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_1.jpg"
 )
 
-Garden.create!(
+english_garden = Garden.create!(
   name: "English Garden",
   picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_2.jpg"
+)
+
+puts "Creating Plants"
+
+Plant.create!(
+  species: "Wallnut tree",
+  picture: "https://www.jardindupicvert.com/12735-large_default/noyer-commun.jpg",
+  garden: color_garden
+)
+
+Plant.create!(
+  species: "Rose",
+  picture: "https://images.unsplash.com/photo-1487035242901-d419a42d17af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+  garden: english_garden
 )
