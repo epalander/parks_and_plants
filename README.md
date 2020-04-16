@@ -10,11 +10,11 @@
 
 ### Steps
 
-1. Seed Data
-2. Generate Model
+1. Generate Model
+2. Seed Data
 3. Routes
-4. Generate Controller
-5. View
+4. Generate Controller and coding action
+5. Coding View
 
 ### Front
 
