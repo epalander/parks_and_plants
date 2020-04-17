@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Add a Tag to <%= @plant.species %></h1>
+
+  <%= simple_form_for [@plant, @plant_tag] do |f| %>
+    <%= f.association :tag, input_html: { multiple: true }, include_hidden: false %>
+    <%= f.button :submit, class: "btn btn-primary" %>
+  <% end %>
+</div>

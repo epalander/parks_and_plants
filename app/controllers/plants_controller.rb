@@ -6,6 +6,7 @@ class PlantsController < ApplicationController
 
   def create
     @plant  = Plant.new(plant_params)
+    # @plant  = Plant.new({species: params[:plant][:species], picture: params[:plant][:picture]})
     @garden = Garden.find(params[:garden_id])
     @plant.garden = @garden
     if @plant.save

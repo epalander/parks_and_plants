@@ -10,7 +10,7 @@ puts "Destroy all"
 if Rails.env.development?
   Plant.destroy_all
   Garden.destroy_all
-  # Tag.destroy_all
+  Tag.destroy_all
 end
 
 puts "Creating Gardens"
@@ -56,8 +56,9 @@ Plant.create!(
   garden: color_garden
 )
 
-# names = %w(Fruit\ tree Cactus Greasy\ plant Flower Ferns Conifers)
+names = %w(Fruit\ tree Cactus Greasy\ plant Flower Ferns Conifers)
+# names = ["Fruit tree" "Cactus" "Greasy plant" "Flower" "Ferns" "Conifers"]
 
-# names.each do |name|
-#   Tag.create!(name: name)
-# end
+names.each do |name|
+  Tag.create!(name: name)
+end

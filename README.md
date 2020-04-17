@@ -9,8 +9,8 @@
 - [x] As a user I can add a plant in a garden
 - [x] As a user I can delete a plant
 - [x] As a user I can see index garden
-- [ ] As a user I can see garden's plants in a css grid
-- [ ] As a user I can add a tag to plant by clicking on "+" in plant card
+- [x] As a user I can see garden's plants in a css grid
+- [x] As a user I can add a tag to plant by clicking on "+" in plant card
 
 ### Steps
 
