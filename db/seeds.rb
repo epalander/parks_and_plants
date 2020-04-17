@@ -8,8 +8,8 @@
 
 puts "Destroy all"
 if Rails.env.development?
-  Garden.destroy_all
   Plant.destroy_all
+  Garden.destroy_all
   # Tag.destroy_all
 end
 
@@ -39,20 +39,20 @@ Plant.create!(
 )
 
 Plant.create!(
-  name: "Monstera",
-  image_url: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/monstera.jpg",
+  species: "Monstera",
+  picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/monstera.jpg",
   garden: color_garden
 )
 
 Plant.create!(
-  name: "Philo",
-  image_url: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/philo.jpg",
+  species: "Philo",
+  picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/philo.jpg",
   garden: color_garden
 )
 
 Plant.create!(
-  name: "Dieff",
-  image_url: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/dieffenbachia.jpg",
+  species: "Dieff",
+  picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/dieffenbachia.jpg",
   garden: color_garden
 )
 
